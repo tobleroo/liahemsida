@@ -1,0 +1,28 @@
+
+
+/* --- form --- */
+
+form{
+    width: 30vw;
+    margin: 5rem auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px gold;
+    border-radius: 15px;
+    padding: .3rem;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+form button{
+    max-width: 20%;
+    margin: 0 auto;
+    padding: .5rem;
+    font-size: large;
+}

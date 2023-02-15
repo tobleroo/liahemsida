@@ -4,15 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
     <link rel="stylesheet" href="/styles/allPagesSettings.css">
-    <link rel="stylesheet" href="/styles/index.css">
-    <title>Home page</title>
+    <link rel="stylesheet" href="/styles/login.css">
 </head>
 <body>
-    
-    <section class="hero">
-        <h3>Hero</h3>
-    </section>
 
     <nav>
         <div class="website-options">
@@ -24,13 +20,21 @@
         </div>
         <div class="login-box">
             <a href="/pages/login.html">Login</a>
-            <a href="#">Skapa konto</a>
+            <a href="/pages/sign-up.html">Skapa konto</a>
         </div>
     </nav>
-
-    <main>
-        
-    </main>
+    
+    <form action="#" method="post">
+        <div class="name-box input-box">
+            <label for="nameIn">Name:</label>
+            <input type="text" name="nameIN" id="nameIN">
+        </div>
+        <div class="password-box input-box">
+            <label for="passIn">Password:</label>
+            <input type="text" name="passIn" id="passIn">
+        </div>
+        <button type="submit">Login</button>
+    </form>
 
     <footer>
         <div class="developers-box">

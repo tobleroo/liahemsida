@@ -1,0 +1,42 @@
+
+
+/* --- main --- */
+
+.guide-box{
+    display: flex;
+    flex-direction: row;
+    height: 29vh;
+}
+
+.titel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+    font-size: xx-large;
+}
+
+#titel1{
+    background-color: lightblue;
+}
+
+#titel2{
+    background-color: lightcoral;
+}
+
+#titel3{
+    background-color: lightpink;
+}
+
+.content{
+    width: 49%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h4{
+    margin: 2rem;
+    font-size: x-large;
+}
