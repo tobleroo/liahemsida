@@ -1,0 +1,34 @@
+
+
+main{
+    width: 100%;
+}
+
+.company-list{
+    width: 60%;
+    border: solid black 2px;
+    margin: 2rem auto;
+}
+
+.company-list h3{
+    text-align: center;
+}
+
+.list-box{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+
+
+.company-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid grey 2px;
+}
+
+.company-box p,h5{
+    width: 30%;
+    text-align: center;
+}

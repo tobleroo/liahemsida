@@ -7,7 +7,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: bisque;
+    background-color: gainsboro;
 }
 
 /* --- nav --- */
