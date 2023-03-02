@@ -50,7 +50,7 @@ p{
     flex-direction: row;
     padding-top: 5%;
 
-    background: url(/images/technoHero.jpg) no-repeat center center fixed; 
+    background: url(../images/technoHero.jpg) no-repeat center center fixed; 
     
     background-size: cover;
 }
@@ -59,7 +59,7 @@ p{
     align-items: flex-end;
     flex-direction: row;
     padding-top: 5%;
-    background: url(/images/technoHero2.jpg) no-repeat center center fixed; 
+    background: url(../images/technoHero2.jpg) no-repeat center center fixed; 
     background-size: cover;
 
 
